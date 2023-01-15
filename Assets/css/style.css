@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap");
+
+:root {
+  --Light_Cyan: hsl(193, 38%, 86%);
+  --Neon_Green: hsl(150, 100%, 66%);
+  --Grayish_Blue: hsl(217, 19%, 38%);
+  --Dark_Grayish_Blue: hsl(217, 19%, 24%);
+  --Dark_Blue: hsl(218, 23%, 16%);
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 28px;
+  background-color: var(--Dark_Blue);
+}
+
+.container {
+  background-color: var(--Dark_Grayish_Blue);
+  margin: 20% 10%;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.adviceNumber {
+  font-size: small;
+  font-weight: bold;
+  color: var(--Neon_Green);
+  margin-bottom: 1rem;
+}
+
+.advice {
+  color: var(--Light_Cyan);
+  font-weight: 800;
+  text-align: center;
+  line-height: 3rem;
+  margin-bottom: 1rem;
+}
+
+.dividerContainer {
+  margin-bottom: 1rem;
+}
+
+.adviceButton {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--Neon_Green);
+  background-image: url(../images/icon-dice.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.adviceButton:hover {
+    cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: var(--Light_Cyan);
+}
+.attribution a {
+  color: var(--Neon_Green);
+}

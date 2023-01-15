@@ -16,7 +16,7 @@ function advice() {
       }
     })
     .then((data) => {
-      adviceNumber.innerHTML = `ADVICE # ${data.slip.id}`;
+      adviceNumber.innerHTML = `ADVICE #${data.slip.id}`;
       adviceField.innerHTML = `"${data.slip.advice}"`;
       console.log(data);
     })

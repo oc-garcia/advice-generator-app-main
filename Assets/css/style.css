@@ -40,7 +40,12 @@ body {
 }
 
 .dividerContainer {
+  width: 100%;
+  height: 1rem;
   margin-bottom: 1rem;
+  background-image: url(../images/pattern-divider-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .adviceButton {
@@ -65,4 +70,11 @@ body {
 }
 .attribution a {
   color: var(--Neon_Green);
+}
+
+
+@media only screen and (min-width: 600px) {
+.dividerContainer {
+  background-image: url(../images/pattern-divider-desktop.svg);
+}
 }
